@@ -227,14 +227,13 @@ create an S3 bucket and configure it to trigger the Lambda function.
     You will configure an event to trigger when an object is created in the S3 bucket.
 
     Click Create event notification then configure these settings:
-       
-     ```
+     
         Name: Load-Inventory
         Event types: All object create events
         Destination: Lambda Function
         Lambda function: Load-Inventory
         Choose Save changes
-   ```
+   
     When an object is created in the bucket, this configuration tells Amazon S3 to trigger the Load-Inventory Lambda function that you created earlier.
 
     Your bucket is now ready to receive inventor
@@ -363,3 +362,8 @@ Amazon SNS is a flexible, fully managed publish/subscribe messaging and mobile n
     After you create an email subscription, you will receive a confirmation email message. Open the message and choose the Confirm subscription link.
 
     Any message that is sent to the SNS topic will be forwarded to your email.
+![Screenshot 2024-11-06 084949](https://github.com/user-attachments/assets/b8b56344-88d7-439b-8fa3-60728b42162f)
+![Screenshot 2024-11-06 083856](https://github.com/user-attachments/assets/efae19d0-a4c9-4036-b54e-444512dcb050)
+![Screenshot 2024-11-06 083811](https://github.com/user-attachments/assets/03eeec0f-a692-41dd-bc8b-164622c5149b)
+![Screenshot 2024-11-06 083735](https://github.com/user-attachments/assets/77a7b88b-8bd8-4daf-84e6-193914bb124a)
+
